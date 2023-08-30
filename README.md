@@ -15,7 +15,21 @@ This Python application retrieves the account names and numbers within a given N
 
 ```bash
 git clone https://github.com/brett-larson/nr-get-accounts.git
-cd [YourRepoName]
 ```
 
 2. Create a virtual environment:
+
+```
+python -m venv venv
+```
+
+
+## Requirements
+- Python 3.x
+- The following Python libraries:
+  - requests
+  - os
+  - logging
+  - dotenv
+
+You can install these packages using the requirements.txt file, as shown above.
